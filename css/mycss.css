@@ -5,8 +5,11 @@ body {
 .introduce {
 	background-image: url(../img/section1_high.jpg);
 	min-height: 586px;
+	/*max-width: 1169px;*/
 	background-repeat: no-repeat;
 	background-position:top center;
+	position: relative;
+	margin: 0 auto;
 }
 .introduce-screen {
 	text-align: center;
@@ -30,3 +33,12 @@ body {
 a {
     background: 0 0;
 }
+.navbar-header {
+	margin-left: 115px !important;
+	margin-top: 60px !important;
+}
+@media (min-width: 1200px){
+.navbar-header {
+	margin-left: 230px !important;
+	margin-top: 60px !important;
+}}
