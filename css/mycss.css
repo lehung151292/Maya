@@ -1,3 +1,7 @@
+body {
+	font-size: 0;
+}
+
 .introduce {
 	background-image: url(../img/section1_high.jpg);
 	min-height: 586px;
@@ -18,6 +22,7 @@
 	-webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    cursor: pointer;
 }
 .introduce .introduce-banner img{
 	margin-top: 40px;
