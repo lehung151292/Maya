@@ -1,0 +1,27 @@
+.introduce {
+	background-image: url(../img/section1_high.jpg);
+	min-height: 586px;
+	background-repeat: no-repeat;
+	background-position:top center;
+}
+.introduce-screen {
+	text-align: center;
+}
+.introduce .introduce-logo img{
+	margin-top: 35px;
+}
+.introduce .introduce-button img{
+	margin-top: 40px;
+}
+.introduce .introduce-button img:hover{
+	opacity: 0.5;
+	-webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.introduce .introduce-banner img{
+	margin-top: 40px;
+}
+a {
+    background: 0 0;
+}
