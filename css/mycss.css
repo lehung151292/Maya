@@ -5,11 +5,10 @@ body {
 .introduce {
 	background-image: url(../img/section1_high.jpg);
 	min-height: 586px;
-	/*max-width: 1169px;*/
+	/*max-width: 1169px;*/ /*cach 2*. khi thu nho man hinh web thi background image se co dinh o width cua image*/
 	background-repeat: no-repeat;
 	background-position:top center;
-	position: relative;
-	margin: 0 auto;
+	/*margin: 0 auto;*/ /* cach 2*/
 }
 .introduce-screen {
 	text-align: center;
@@ -42,3 +41,28 @@ a {
 	margin-left: 230px !important;
 	margin-top: 60px !important;
 }}
+.about {
+	background-image: url(../img/section2_high.jpg);
+	min-height: 497px;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.about-text {
+	font-size: 15px;
+	color: #fff;
+	line-height: 25px;
+	margin-top: 40px;
+}
+.about .about-text span {
+	font-size: 20px;
+}
+.about .about-button img{
+	margin-top: 30px;
+}
+.about .about-button img:hover{
+	opacity: 0.5;
+	-webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
