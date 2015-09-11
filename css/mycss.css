@@ -73,6 +73,11 @@ a {
 	margin: 0 auto;
 	position: relative;
 }
-.block-image {
+.maya-silder{
 	float: right;
+	max-width: 568px;
+	margin-top: 55px;
+}
+.maya-indicators{
+	bottom: -32px;
 }
