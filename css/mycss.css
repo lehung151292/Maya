@@ -81,3 +81,15 @@ a {
 .maya-indicators{
 	bottom: -32px;
 }
+/*#b89c6d
+#cbac73*/
+.information .maya-indicators li{
+	border-color: rgba(121, 29, 29, 0);
+	background: radial-gradient(#EEEEEE,#CACACA);
+	width: 12px;
+	height: 12px;
+}
+.carousel-indicators .active {
+    background: radial-gradient(#c8aa76,#b09464) !important;
+    border-color: #b09464 !important;
+ }
