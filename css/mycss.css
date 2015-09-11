@@ -93,3 +93,19 @@ a {
     background: radial-gradient(#c8aa76,#b09464) !important;
     border-color: #b09464 !important;
  }
+.information-content {
+  margin-top: 55px;
+  margin-left: 200px;
+  position: absolute;
+  width: 374px;
+  float: left;
+  color: black;
+  line-height: 25px;
+  font-size: 14px;
+}
+.content-header {
+	margin-top: 0px;
+	font-size: 19px;
+	color:black;
+	font-family: Verdana;
+}
