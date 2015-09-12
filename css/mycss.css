@@ -193,3 +193,27 @@ a {
 	max-width: 1169px;
 	margin: 0 auto;
 }
+.team-project-wrapper {
+	height: inherit;
+	width: 770px;
+}
+.team-project-navigation{
+	height: 20px;
+	font-size: 10px;
+}
+.team-project-navigation ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.team-project-navigation li{
+	float: left;
+	margin-right: 20px;
+	margin-top: 35px;
+}
+.team-project-navigation a{
+	color: black;
+	font-weight: 700;
+	font-family: Verdana;
+
+}
