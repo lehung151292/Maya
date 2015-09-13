@@ -198,7 +198,7 @@ a {
 }
 .team-project {
 	max-width: 1169px;
-	height: 1121px;
+	height: 1120px;
 	color: #fff;
 	position: relative;
 	margin: 0 auto;
@@ -234,9 +234,15 @@ a {
 	text-decoration: none;
 }
 .team-project-picture {
-	padding-right: 0;
-	padding-left: 0;
-	padding-top: 31px;
+    width: 771px;
+    padding-right: 0;
+    padding-left: 2px;
+    padding-top: 31px;
+    min-height: 647px;
+    border-color: #d0ab67;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+
 }
 .row.custom-row > [class^="col-"],
 .row.custom-row > [class*=" col-"] {
@@ -244,4 +250,48 @@ a {
 }
 .row.custom-row .first-line {
 	padding-top: 0px;
+}
+.team-member {
+	min-height: 448px;
+	color: black;
+	padding-left: 0;
+	padding-right: 0;	
+}
+.team-member .col-xs-12 h3 {
+	font-size: 20px;
+	font-family: Verdana;
+	margin-top: 44px;
+	margin-bottom: 0px;
+}
+.team-member .col-xs-12 p {
+	margin-top: 4px;
+	font-size: 12px;
+	font-family: Verdana;
+	letter-spacing: 0.22px;
+	line-height: 24px;
+	margin-bottom: 0px;
+}
+.team-member a{
+	margin-left: -1.3px;
+}
+.team-member .col-xs-3 {
+	margin-top: 57px;
+}
+.team-member .col-xs-3 a p{
+	color:black;
+	font-family: Verdana;
+	font-size: 13.5px;
+	text-align: center;
+	margin-top: 10px;
+	line-height: 19px;
+}
+.team-member .col-xs-3 a:hover{
+	color:black;
+	font-family: Verdana;
+	font-size: 13.5px;
+	text-align: center;
+	text-decoration: none;
+}
+.team-member .col-xs-3 a p span{
+	font-weight: 600;
 }
