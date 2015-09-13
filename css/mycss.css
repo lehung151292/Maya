@@ -32,6 +32,9 @@ body {
 a {
     background: 0 0;
 }
+.navbar-custom{
+	margin-bottom: 0;
+}
 .navbar-header {
 	margin-left: 115px !important;
 	margin-top: 60px !important;
@@ -193,13 +196,23 @@ a {
 	max-width: 1169px;
 	margin: 0 auto;
 }
+.team-project {
+	max-width: 1169px;
+	height: 1121px;
+	color: #fff;
+	position: relative;
+	margin: 0 auto;
+}
 .team-project-wrapper {
 	height: inherit;
 	width: 770px;
+	padding-right: 0;
+	padding-left: 0;
 }
 .team-project-navigation{
-	height: 20px;
+	min-height: 31px;
 	font-size: 10px;
+	letter-spacing: -0.55px;
 }
 .team-project-navigation ul{
 	padding: 0;
@@ -215,5 +228,20 @@ a {
 	color: black;
 	font-weight: 700;
 	font-family: Verdana;
-
+}
+.team-project-navigation a:hover,.team-project-navigation a:focus,.team-project-navigation a:active{
+	color: #ccb893;
+	text-decoration: none;
+}
+.team-project-picture {
+	padding-right: 0;
+	padding-left: 0;
+	padding-top: 31px;
+}
+.row.custom-row > [class^="col-"],
+.row.custom-row > [class*=" col-"] {
+	padding-top: 31px;
+}
+.row.custom-row .first-line {
+	padding-top: 0px;
 }
