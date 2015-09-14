@@ -295,3 +295,40 @@ a {
 .team-member .col-xs-3 a p span{
 	font-weight: 600;
 }
+.contact {
+	background-image: url(..//img/section3_high.jpg);
+	min-height: 526px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	max-width: 1169px;
+	margin: 0 auto;
+}
+.contact-info span {
+	font-size: 19px;
+}
+.contact-info p {
+	font-size: 15px;
+	color: white;
+	font-family: arial;
+	margin-top: 30px;
+	line-height: 26px;
+}
+.contact-button {
+	margin-top: 35px;
+}
+.contact-board-wrapper {
+	width: 368px;
+	height: 181px;
+	background-color: white;
+	margin-top:72px;
+	padding: 2px;
+}
+.contact-board {
+    width: 364px;
+    height: 177px;
+    border-color: #806aaa;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 34px;
+    padding-left: 28px;
+}
