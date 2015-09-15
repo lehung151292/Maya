@@ -29,6 +29,25 @@ body {
 .introduce .introduce-banner img{
 	margin-top: 40px;
 }
+.introduce ul {
+	font-size: 10px;
+	margin-top: 70px;
+	font-weight: 600;
+	margin-left: 75px;
+}
+.introduce a{
+	color: black;
+	padding-right: 0px !important;
+}
+.introduce a:hover{
+	color: #ccb893;
+	text-decoration: none;
+	font-size: 11px;
+	background-color: #fff !important;
+}
+.introduce a:focus,.introduce a:active{
+	background-color: #fff !important;
+}
 a {
     background: 0 0;
 }
@@ -36,12 +55,12 @@ a {
 	margin-bottom: 0;
 }
 .navbar-header {
-	margin-left: 115px !important;
+	margin-left: 110px !important;
 	margin-top: 60px !important;
 }
 @media (min-width: 1200px){
 .navbar-header {
-	margin-left: 230px !important;
+	margin-left: 220px !important;
 	margin-top: 60px !important;
 }}
 .about {
@@ -51,6 +70,10 @@ a {
 	background-position: top center;
 	max-width: 1169px;
 	margin: 0 auto;
+}
+.about .row {
+	margin-left: 15px;
+	margin-right: 0;
 }
 .about-text {
 	font-size: 15px;
@@ -229,8 +252,11 @@ a {
 	font-weight: 700;
 	font-family: Verdana;
 }
-.team-project-navigation a:hover,.team-project-navigation a:focus,.team-project-navigation a:active{
+.team-project-navigation a:hover{
 	color: #ccb893;
+	text-decoration: none;
+}
+.team-project-navigation a:focus,.team-project-navigation a:active{
 	text-decoration: none;
 }
 .team-project-picture {
@@ -398,4 +424,63 @@ a {
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     cursor: pointer;
+}
+.pre-contact {
+	min-height: 131px;
+	max-width: 1169px;
+	background-image: url(..//img/last-section-high.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	margin: 0 auto;
+	font-size: 20px;
+}
+.pre-contact-wrapper {
+	height: 131px;
+}
+.pre-contact-icon {
+	margin-left: 860px;
+	margin-top: 45px;
+}
+.pre-contact-icon a{
+	margin-right: 5px;
+	color: #fff;
+}
+.pre-contact-icon a:hover,.pre-contact-icon a:focus,.pre-contact-icon a:active{
+	color: #ccb893;
+	text-decoration: none;
+	font-size: 22px;
+}
+.pre-contact-navigation{
+	font-size: 10.5px;
+  	margin-top: 11px;
+  	margin-left: 375px;
+
+}
+.pre-contact-navigation ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.pre-contact-navigation li{
+	float: left;
+	margin-right: 15px;
+}
+.pre-contact-navigation a{
+	color: #fff;
+	font-weight: 600;
+}
+.pre-contact-navigation a:hover{
+	color: #ccb893;
+	text-decoration: none;
+	font-size: 11px;
+}
+.pre-contact-navigation a:focus,.pre-contact-navigation a:active{
+	text-decoration: none;
+}
+.pre-contact p{
+	font-size: 8px;
+	color: #fff;
+  	margin-top: 30px;
+  	margin-left: 755px;
+  	letter-spacing: 0.4px;
 }
