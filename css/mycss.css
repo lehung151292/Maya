@@ -1,5 +1,10 @@
 body {
 	font-size: 0;
+	max-width: 1169px;
+	margin: 0 auto;
+	box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+	-webkit-box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+	-moz-box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
 }
 
 .introduce {
@@ -114,11 +119,17 @@ a {
 .information .maya-indicators li{
 	border-color: rgba(121, 29, 29, 0);
 	background: radial-gradient(#EEEEEE,#CACACA);
+	background: -webkit-radial-gradient(#EEEEEE,#CACACA); /* For Safari 5.1 to 6.0 */
+  	background: -o-radial-gradient(#EEEEEE,#CACACA); /* For Opera 11.1 to 12.0 */
+  	background: -moz-radial-gradient(#EEEEEE,#CACACA); /* For Firefox 3.6 to 15 */
 	width: 12px;
 	height: 12px;
 }
 .carousel-indicators .active {
     background: radial-gradient(#c8aa76,#b09464) !important;
+    background: -webkit-radial-gradient(#c8aa76,#b09464) !important; /* For Safari 5.1 to 6.0 */
+  	background: -o-radial-gradient(#c8aa76,#b09464) !important; /* For Opera 11.1 to 12.0 */
+  	background: -moz-radial-gradient(#c8aa76,#b09464) !important; /* For Firefox 3.6 to 15 */
     border-color: #b09464 !important;
  }
 .information-content {
@@ -438,7 +449,7 @@ a {
 	height: 131px;
 }
 .pre-contact-icon {
-	margin-left: 860px;
+	margin-left: 800px;
 	margin-top: 45px;
 }
 .pre-contact-icon a{
@@ -461,6 +472,7 @@ a {
 	margin: 0;
 	list-style-type: none;
 }
+
 .pre-contact-navigation li{
 	float: left;
 	margin-right: 15px;
@@ -481,6 +493,15 @@ a {
 	font-size: 8px;
 	color: #fff;
   	margin-top: 30px;
-  	margin-left: 755px;
+  	margin-left: 725px;
   	letter-spacing: 0.4px;
+}
+@media (min-width: 1200px){
+	.pre-contact-icon {
+		margin-left: 860px;
+		margin-top: 45px;
+	}
+	.pre-contact p {
+		margin-left: 755px;
+	}
 }
